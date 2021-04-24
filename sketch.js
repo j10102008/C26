@@ -41,6 +41,7 @@ function setup(){
 function draw(){
     background(backgroundImg);
     Engine.update(engine);
+    text ("Angry bird game",60,60)
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
     console.log(box2.body.angle);
